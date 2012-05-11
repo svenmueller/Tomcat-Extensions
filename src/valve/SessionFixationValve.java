@@ -12,9 +12,10 @@ import org.apache.catalina.valves.ValveBase;
 import org.apache.log4j.Logger;
 
 /**
- * This valve changes the session ID when a secure request is. It does not
- * destroy the previous session, rather it renames it so it is no longer found
- * by that ID.
+ * This valve changes the session ID of an incoming secure request. The session
+ * id is only changed once for the first unsecure request. It does not destroy
+ * the previous session, rather it renames it so it is no longer found by that
+ * ID.
  * 
  * @author sven mueller
  * @version $Revision:$
