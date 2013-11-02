@@ -1,6 +1,6 @@
 # Tomcat-Extensions
 
-Custom Tomcat valves etc..
+Collection of custom Tomcat valves.
 
 
 ## Session Fixation Prevention Valve
